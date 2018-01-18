@@ -21,8 +21,8 @@ namespace NHL_MIS
         {
             Login Login = new Login();
             //this.FormBorderStyle = FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
+            //this.MaximizeBox = false;
+            //this.MinimizeBox = false;
             Login.MdiParent = this;
             Login.Dock = DockStyle.Fill;
             Login.Show();
