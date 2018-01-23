@@ -153,9 +153,9 @@
             this.data7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.data7.Location = new System.Drawing.Point(300, 390);
             this.data7.Name = "data7";
-            this.data7.Size = new System.Drawing.Size(156, 24);
+            this.data7.Size = new System.Drawing.Size(110, 24);
             this.data7.TabIndex = 16;
-            this.data7.Text = "Telefoonnummer";
+            this.data7.Text = "0658844123";
             // 
             // data6
             // 
@@ -163,9 +163,9 @@
             this.data6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.data6.Location = new System.Drawing.Point(300, 355);
             this.data6.Name = "data6";
-            this.data6.Size = new System.Drawing.Size(57, 24);
+            this.data6.Size = new System.Drawing.Size(240, 24);
             this.data6.TabIndex = 15;
-            this.data6.Text = "Email";
+            this.data6.Text = "peterdevries69@gmail.com";
             // 
             // data5
             // 
@@ -173,9 +173,9 @@
             this.data5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.data5.Location = new System.Drawing.Point(300, 320);
             this.data5.Name = "data5";
-            this.data5.Size = new System.Drawing.Size(139, 24);
+            this.data5.Size = new System.Drawing.Size(133, 24);
             this.data5.TabIndex = 14;
-            this.data5.Text = "Datum in dienst";
+            this.data5.Text = "2 oktober 2017";
             // 
             // data4
             // 
@@ -183,9 +183,9 @@
             this.data4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.data4.Location = new System.Drawing.Point(300, 285);
             this.data4.Name = "data4";
-            this.data4.Size = new System.Drawing.Size(92, 24);
+            this.data4.Size = new System.Drawing.Size(115, 24);
             this.data4.TabIndex = 13;
-            this.data4.Text = "Opleiding";
+            this.data4.Text = "Leraar Pools";
             // 
             // data3
             // 
@@ -193,9 +193,9 @@
             this.data3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.data3.Location = new System.Drawing.Point(300, 250);
             this.data3.Name = "data3";
-            this.data3.Size = new System.Drawing.Size(73, 24);
+            this.data3.Size = new System.Drawing.Size(128, 24);
             this.data3.TabIndex = 12;
-            this.data3.Text = "Functie";
+            this.data3.Text = "Schoonmaker";
             // 
             // data2
             // 
@@ -203,9 +203,9 @@
             this.data2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.data2.Location = new System.Drawing.Point(300, 215);
             this.data2.Name = "data2";
-            this.data2.Size = new System.Drawing.Size(112, 24);
+            this.data2.Size = new System.Drawing.Size(80, 24);
             this.data2.TabIndex = 11;
-            this.data2.Text = "Achternaam";
+            this.data2.Text = "de Vries";
             // 
             // data1
             // 
@@ -213,9 +213,9 @@
             this.data1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.data1.Location = new System.Drawing.Point(300, 180);
             this.data1.Name = "data1";
-            this.data1.Size = new System.Drawing.Size(98, 24);
+            this.data1.Size = new System.Drawing.Size(54, 24);
             this.data1.TabIndex = 10;
-            this.data1.Text = "Voornaam";
+            this.data1.Text = "Peter";
             // 
             // ViewEmployee
             // 
