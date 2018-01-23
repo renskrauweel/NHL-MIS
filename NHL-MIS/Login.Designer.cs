@@ -44,6 +44,8 @@
             this.textBox2.Size = new System.Drawing.Size(265, 34);
             this.textBox2.TabIndex = 5;
             this.textBox2.Text = "Wachtwoord";
+            this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
+            this.textBox2.Leave += new System.EventHandler(this.textBox2_Leave);
             // 
             // textBox1
             // 
@@ -55,6 +57,8 @@
             this.textBox1.Size = new System.Drawing.Size(265, 34);
             this.textBox1.TabIndex = 4;
             this.textBox1.Text = "Gebruikersnaam";
+            this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
+            this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
             // 
             // button1
             // 
