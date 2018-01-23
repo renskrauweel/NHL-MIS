@@ -34,5 +34,12 @@ namespace NHL_MIS
             employee.Show();
             Close();
         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.ParentForm.Close();
+        }
     }
 }
