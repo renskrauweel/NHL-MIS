@@ -15,7 +15,7 @@ namespace NHL_MIS
             form.Font = new Font("Arial", 14);
             //form.Width = 1275;
             //form.Height = 715;
-            form.Dock = DockStyle.Fill;
+            //form.Dock = DockStyle.Fill;
             // titel 28
         }
     }
