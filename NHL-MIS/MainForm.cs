@@ -19,15 +19,13 @@ namespace NHL_MIS
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            Login Login = new Login();
+            Overview overview = new Overview();
             //this.FormBorderStyle = FormBorderStyle.FixedSingle;
             //this.MaximizeBox = false;
             //this.MinimizeBox = false;
-            Login.MdiParent = this;
+            overview.MdiParent = this;
             //Login.Dock = DockStyle.Fill;
-            Login.Width = 1280;
-            Login.Height = 720;
-            Login.Show();
+            overview.Show();
         }
     }
 }

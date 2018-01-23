@@ -20,10 +20,9 @@ namespace NHL_MIS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Overview form = new Overview();
-            form.MdiParent = this.ParentForm;
-            form.Show();
-            Close();
+            MainForm main = new MainForm();
+            main.Show();
+            Hide();
         }
     }
 }
