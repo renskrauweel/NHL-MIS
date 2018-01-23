@@ -21,7 +21,7 @@ namespace NHL_MIS
 
         private void btn_view_Click(object sender, EventArgs e)
         {
-            EditEmployee employee = new EditEmployee();
+            ViewEmployee employee = new ViewEmployee();
             employee.MdiParent = this.ParentForm;
             employee.Show();
             Close();

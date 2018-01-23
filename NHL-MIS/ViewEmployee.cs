@@ -16,5 +16,26 @@ namespace NHL_MIS
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            EditEmployee page = new EditEmployee();
+            page.MdiParent = this.ParentForm;
+            page.Show();
+            Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            goBack();
+        }
+
+        private void goBack()
+        {
+            Overview page = new Overview();
+            page.MdiParent = this.ParentForm;
+            page.Show();
+            Close();
+        }
     }
 }
