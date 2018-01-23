@@ -15,6 +15,8 @@ namespace NHL_MIS
         public Overview()
         {
             InitializeComponent();
+            Utils utils = new Utils();
+            utils.InitialiseForm(this);
         }
     }
 }

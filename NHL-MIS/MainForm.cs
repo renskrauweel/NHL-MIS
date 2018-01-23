@@ -24,7 +24,9 @@ namespace NHL_MIS
             //this.MaximizeBox = false;
             //this.MinimizeBox = false;
             Login.MdiParent = this;
-            Login.Dock = DockStyle.Fill;
+            //Login.Dock = DockStyle.Fill;
+            Login.Width = 1280;
+            Login.Height = 720;
             Login.Show();
         }
     }
