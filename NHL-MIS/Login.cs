@@ -17,5 +17,13 @@ namespace NHL_MIS
             InitializeComponent();
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Overview form = new Overview();
+            form.MdiParent = this.ParentForm;
+            form.Show();
+            Close();
+        }
     }
 }
