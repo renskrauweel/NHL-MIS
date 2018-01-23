@@ -18,5 +18,21 @@ namespace NHL_MIS
             //Utils utils = new Utils();
             //utils.InitialiseForm(this);
         }
+
+        private void btn_view_Click(object sender, EventArgs e)
+        {
+            EditEmployee employee = new EditEmployee();
+            employee.MdiParent = this.ParentForm;
+            employee.Show();
+            Close();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            AddEmployee employee = new AddEmployee();
+            employee.MdiParent = this.ParentForm;
+            employee.Show();
+            Close();
+        }
     }
 }
