@@ -173,7 +173,6 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(411, 29);
             this.textBox6.TabIndex = 13;
-            this.textBox6.Text = "sebastiaanvanderhogentoren@pricefixers.nl";
             // 
             // textBox7
             // 
