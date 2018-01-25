@@ -207,6 +207,7 @@
             this.Aanmaken.TabIndex = 15;
             this.Aanmaken.Text = "Aanmaken";
             this.Aanmaken.UseVisualStyleBackColor = true;
+            this.Aanmaken.Click += new System.EventHandler(this.Aanmaken_Click);
             // 
             // AddEmployee
             // 
