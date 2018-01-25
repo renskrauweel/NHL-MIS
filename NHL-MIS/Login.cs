@@ -15,14 +15,14 @@ namespace NHL_MIS
         public Login()
         {
             InitializeComponent();
-
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MainForm main = new MainForm();
-            main.Show();
-            Hide();
+            MainForm refToMainForm = new MainForm();
+            refToMainForm.RefToLoginForm = this;
+            this.Visible = false;
+            refToMainForm.Show();
         }
 
         private void textBox1_Enter(object sender, EventArgs e)

@@ -12,6 +12,7 @@ namespace NHL_MIS
 {
     public partial class Overview : Form
     {
+        public Form RefToLoginForm { get; set; }
 
         private string[,] tableData = new string[,]
         {
@@ -47,8 +48,6 @@ namespace NHL_MIS
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Show();
             this.ParentForm.Close();
         }
 

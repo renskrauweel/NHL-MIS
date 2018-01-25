@@ -12,6 +12,8 @@ namespace NHL_MIS
 {
     public partial class MainForm : Form
     {
+        public Form RefToLoginForm {get; set;}
+
         public MainForm()
         {
             InitializeComponent();
@@ -30,7 +32,7 @@ namespace NHL_MIS
 
         protected override void OnClosed(EventArgs e)
         {
-            Application.Exit();
+            this.RefToLoginForm.Show();
         }
     }
 }
