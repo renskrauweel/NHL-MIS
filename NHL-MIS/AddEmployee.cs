@@ -26,6 +26,7 @@ namespace NHL_MIS
         {
             Overview page = new Overview();
             page.MdiParent = this.ParentForm;
+            page.Dock = DockStyle.Fill;
             page.Show();
             Close();
         }

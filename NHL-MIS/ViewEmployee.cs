@@ -21,6 +21,7 @@ namespace NHL_MIS
         {
             EditEmployee page = new EditEmployee();
             page.MdiParent = this.ParentForm;
+            page.Dock = DockStyle.Fill;
             page.Show();
             Close();
         }
@@ -34,6 +35,7 @@ namespace NHL_MIS
         {
             Overview page = new Overview();
             page.MdiParent = this.ParentForm;
+            page.Dock = DockStyle.Fill;
             page.Show();
             Close();
         }
