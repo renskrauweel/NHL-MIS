@@ -27,5 +27,10 @@ namespace NHL_MIS
             overview.Dock = DockStyle.Fill;
             overview.Show();
         }
+
+        protected override void OnClosed(EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
