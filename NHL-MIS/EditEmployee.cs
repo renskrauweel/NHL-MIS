@@ -16,5 +16,19 @@ namespace NHL_MIS
         {
             InitializeComponent();
         }
+
+        private void Opslaan_Click(object sender, EventArgs e)
+        {
+            goBack();
+        }
+
+        private void goBack()
+        {
+            Overview page = new Overview();
+            page.MdiParent = this.ParentForm;
+            page.Dock = DockStyle.Fill;
+            page.Show();
+            Close();
+        }
     }
 }

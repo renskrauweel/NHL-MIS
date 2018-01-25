@@ -17,7 +17,7 @@ namespace NHL_MIS
         {
             { "H. de Vries", "ICT", "0612345678", "16" },
             { "E. Hoekstra", "ICT", "0687654321", "21" },
-            { "O. Koning", "Directie", "06976851432", "13" }
+            { "O. Koning", "Directie", "0697685143", "13" }
         };
 
         public Overview()
